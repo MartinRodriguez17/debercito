@@ -1,0 +1,205 @@
+html{
+    font-size: 16px;
+}
+/*Se usa mediasquery para hacer apaptable la letra los dispositivos*/
+@media screen and(mas-whidth: 400px){
+    html{
+        font-size: 10px;
+    }
+}
+/*BODY=============================================================*/
+
+  
+
+body{
+
+ /* Imagen de fondo */
+    background-image: url('https://s0.smartresize.com/wallpaper/593/223/HD-wallpaper-football-pitch-football-pitch-thumbnail.jpg');
+    background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    
+
+    background-color: rgba(46, 179, 68, 0.151); /*Fondo de pagína*/
+    font-family:"Libre+Baskerville"; /*Fuente de letra*/
+    font-size: 1.5rem;/*Multiplica por valor padre*/
+    font-style: normal;
+    font-weight: normal;/*Grosor letra*/
+    line-height: 1.5; /*Interlineado */
+    margin: 10px; /*Espacio hacia afuera*/
+    padding: 15px;/*Espacio hacia adentro*/
+}
+/*FIN BODY=======================================================*/
+
+/*INICIO HEADER==========================================================*/
+.header-logo{
+    margin-bottom: 0px;/*Espacio hacia abajo*/ 
+    margin-right: 1475px; /*del centro a la izquierda*/
+    padding: 0;
+}
+
+.lognav{
+    align-items: center;
+}
+
+.header-main-nav{/*toda la barra de tareas*/
+    list-style-type: none;/*Estilo de marcador de Opción*/
+    padding: 10px 20px;/*espacio alrededor del contenido*/
+    margin: 0;
+    display: flex; /*Coloca las opciones en fila*/
+    justify-content: space-between;/* distribuye espacios*/
+    align-items: center;/*centra los elementos*/
+    background-color: rgba(63, 57, 57, 0.325);
+}
+
+.header-logo img{
+    width: 50px;/*ajusta ancho de imagen*/
+    height: auto;/*Mantiene la proporción*/
+    margin-right: 20px;
+}
+
+.header-main-nav li{/* solo las opciones*/
+    margin-right: 60px;/*Espacio entre opciones*/
+}
+
+.header-main-nav a{
+    text-decoration: none;/*Opcion de subrallado*/
+    color: rgb(40, 68, 67);/*Color de opción*/
+    font-size: 24px;/*Grosor de Letra*/
+}
+
+.header-main-nav a:hover{/*Efecto del cursor sobre opción y color*/
+    color: red;
+}
+/*FIN DE HEADER=======================================================*/
+
+/* INICIO PRESENTACION==================================*/
+.Titulo1{/*TITULO 1*/
+    color: rgba(247, 232, 68, 0.622);
+    font-weight: 600;/*Grosor de letra*/
+    text-align: center; /*posicion de texto*/
+}
+
+h3{
+    color:  rgba(9, 9, 11, 0.979);
+    font-size: 35px;/*Porte de letra*/
+    text: shadow 2px;/*Sombra*/
+    font-weight: 60;/*Grosor de letra*/
+    background-color: rgba(240, 248, 255, 0.125);
+}
+/*FIN PRESENTACION =====================================================*/
+
+/*TABLA POSICIONES=======================================================*/
+.Titulo2{/**TITULO 2*/
+    color: rgba(247, 232, 68, 0.622) ;
+    font-weight: 600;/*Grosor de letra*/
+    margin-left: 50px; /*margen de izquiera a derecha*/
+}
+
+.tablageneral{
+    width: 60%;/*porcentaje del casillero usado*/
+    border-collapse :collapse;/*Elimina los espacios entre celdas*/
+    margin: 0 auto;
+    font-size: 25px;/*Espacio alrededor dl texto*/
+    text-align:center;
+}
+
+h2{
+    color: rgba(255, 0, 0, 0.711);
+    text-align: center;
+}
+
+th, td{
+    padding: 12px 15px;
+    border: solid rgb(62, 119, 162);/*Borde de celdas*/
+
+}
+
+.textotabla{
+    margin: 0 auto;
+    color: rgba(4, 4, 3, 0.833);
+    font-size: 25px;
+    background-color: rgba(48, 69, 87, 0.123);/*Fondo de texto*/
+}
+
+
+th{
+    background-color: rgba(79, 78, 78, 0.605);/*Fondo del encabezado de la tabla*/
+}
+
+td{
+    background-color: rgba(112, 110, 110, 0.23);/*Fondo del resto de la tabla*/
+}
+
+tr:hover{
+    background-color:rgba(255, 127, 80, 0.8);
+}
+/*FIN TABLA POSICIONE00000000000000000000000000000000*/
+
+/*TABLA DE RESULTADOS=============================*/
+.tablaresultados{
+    width: 60%;/*pocentaje usado */
+    border-collapse :collapse;/*Elimina espacios entre celdas*/
+    margin: 0 auto;
+    font-size: 25px;/*Espacio alrededor del contenido*/
+    text-align:center;
+}
+/*FIN TABLA DE RESULTADOS==============================================*/
+
+/*DESTACADO==============================*/
+.imgdestacado{/*Imgen de destacado*/
+    width: 450px;/*Ancho de imagen*/
+    height: auto;/*Mantiene la proporcion*/
+}
+
+.t-resumen{
+    text-align: center;
+}
+
+.v-container {
+    padding: auto;
+    display: flex; /*Centra horizontalmente*/
+    justify-content: center; /*Centra verticalmente si es necesario*/
+    align-items: center;  /*Ajusta la altura para centrar verticalmente*/
+    height: 100vh;
+}
+
+
+/*DESCATACADO FIN==========================================================*/
+
+/*TABLA SIGUIENTE FECHA=============================================*/
+.tablaproxima{
+    width: 60%;/*porcentaje del casillero usado*/
+    border-collapse :collapse;/*Elimina los espacios entre celdas*/
+    margin: 0 auto;
+    font-size: 25px;/*Espacio alrededor dl texto*/
+    text-align:center;
+}
+
+.header-menu-toggle{
+    color: black;
+
+}
+
+.header-menu-toggle:hover{
+    color: chartreuse;
+}
+/*FIN DE TABLA DE PROXIMA FECHA====================================*/
+
+/*REDES============================================================*/
+.header-social{
+    list-style-type: none;/*Estilo de marcador de Opción*/
+    padding: 10px 20px;/*espacio alrededor del contenido*/
+    margin: 0;
+    display: flex; /*Coloca las opciones en fila*/
+    justify-content: space-between;/* distribuye espacios*/
+    align-items: center;/*centra los elementos*/
+    background-color: rgba(111, 107, 107, 0.325);
+}
+
+a:hover,
+a:focus,
+a:active{
+    color: aqua;
+}
+/*FIN DE REDES==========================================================*/
